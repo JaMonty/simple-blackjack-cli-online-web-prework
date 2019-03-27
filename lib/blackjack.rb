@@ -1,10 +1,12 @@
 def welcome do 
-  
+   it "prints a welcome message to screen" do
+    expect($stdout).to receive(:puts).with("Welcome to the Blackjack Table")
   # code #welcome here
 end
 
 def deal_card
   # code #deal_card here
+  
 end
 
 def display_card_total
