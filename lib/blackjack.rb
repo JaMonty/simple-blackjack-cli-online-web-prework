@@ -21,7 +21,7 @@ def display_card_total do
 end
 
 def prompt_user do 
-  
+  it 
   # code #prompt_user here
 end
 
