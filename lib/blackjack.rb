@@ -27,7 +27,8 @@ def prompt_user do
   # code #prompt_user here
 end
 
-def get_user_input
+def get_user_input do
+  
   
   # code #get_user_input here
 end
