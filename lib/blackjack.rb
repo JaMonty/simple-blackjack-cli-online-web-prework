@@ -37,11 +37,14 @@ def get_user_input do
 end
 
 def end_game do 
-  
+  it "prints apology, card total, and thank you message" do
+    expect($stdout).to receive(:puts).with("Sorry, you hit 27. Thanks for playing!")
+    end_game(27)
   # code #end_game here
 end
 
-def initial_round
+def initial_round do 
+  
   # code #initial_round here
 end
 
