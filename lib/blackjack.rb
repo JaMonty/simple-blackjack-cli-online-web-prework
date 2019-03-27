@@ -4,7 +4,8 @@ def welcome do
   # code #welcome here
 end
 
-def deal_card
+def deal_card do 
+  
   # code #deal_card here
   
 end
